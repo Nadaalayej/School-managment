@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentification</title>
+    <link rel="stylesheet" href="style.css"> <!-- Vous pouvez créer ce fichier CSS pour styliser votre page -->
+</head>
+<body>
+    <div class="background-image"></div>
+    <div class="container">
+        <h2>Connexion</h2>
+        <form action="authentifier.php" method="POST">
+            <div class="form-group">
+                <label for="Cin"> Carte d'identité nationale :</label>
+                <input type="text" id="Cin" name="Cin" required>
+            </div>
+
+            <div class="form-group">
+                <label for="Mdp">Mot de passe :</label>
+                <input type="password" id="Mdp" name="Mdp" required>
+            </div>
+            <button type="submit">Se connecter</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,128 @@
+/* Réinitialisation des styles par défaut du navigateur */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style de fond de la page */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Centre la page verticalement */
+}
+
+/* Style du conteneur de formulaire */
+/* Style du conteneur de formulaire */
+.container {
+    width: 60%; /* Ajustez la largeur du formulaire (par exemple, 80% de la largeur de la page) */
+    max-width: 600px; /* Ajustez la largeur maximale du formulaire selon vos besoins */
+    margin: 50px auto; /* Ajustez la marge en haut et en bas pour déplacer le formulaire vers le bas */
+    padding: 30px; /* Ajustez le rembourrage pour agrandir le formulaire */
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centrez le contenu du conteneur horizontalement */
+    margin-right: 370px;
+}
+
+
+/* Titre du formulaire */
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Style des champs de formulaire */
+.form-group {
+    margin-bottom: 15px;
+    
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+/* Bouton de soumission */
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Message d'erreur */
+.erreur {
+    color: #ff0000;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Style de l'image de fond */
+.background-image {
+    background-image: url('iset1.png');
+    background-size: cover;
+    background-position: center center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    filter: blur(5px);
+}
+/* Style du formulaire */
+form {
+    width: 80%; /* Ajustez la largeur du formulaire (par exemple, 80% de la largeur de la page) */
+    max-width: 800px; /* Ajustez la largeur maximale du formulaire selon vos besoins */
+    margin: 50px auto; /* Ajustez la marge en haut et en bas pour déplacer le formulaire vers le bas */
+    padding: 10px; /* Ajustez le rembourrage pour augmenter la taille du formulaire */
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centrez le contenu du formulaire horizontalement */
+    
+}
+/* Style initial pour masquer le menu */
+.menu {
+    display: none;
+}
+
+/* Style pour afficher le menu lorsque la classe 'menu-open' est présente */
+.menu-open {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
